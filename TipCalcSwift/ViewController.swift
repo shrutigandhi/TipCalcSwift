@@ -17,12 +17,19 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var totalLabel: UILabel!
     
+    @IBOutlet weak var totalLabel2: UITextField!
+
+    @IBOutlet weak var totalLabel3: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         TipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+       
+        
+        
         
     }
 
@@ -45,6 +52,10 @@ class ViewController: UIViewController {
         
         TipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        totalLabel2.text = String(format: "$%.2f", total/2)
+        totalLabel3.text = String(format: "$%.2f", total/3)
+        
+        
         
     }
     

@@ -13,18 +13,7 @@
 		692F6E671B96D3770093683A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692F6E661B96D3770093683A /* ViewController.swift */; };
 		692F6E6C1B96D3770093683A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692F6E6B1B96D3770093683A /* Images.xcassets */; };
 		692F6E6F1B96D3770093683A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 692F6E6D1B96D3770093683A /* LaunchScreen.xib */; };
-		692F6E7B1B96D3770093683A /* TipCalcSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692F6E7A1B96D3770093683A /* TipCalcSwiftTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		692F6E751B96D3770093683A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 692F6E571B96D3770093683A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 692F6E5E1B96D3770093683A;
-			remoteInfo = TipCalcSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		690BCBA71B98F98900F7C198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,20 +24,10 @@
 		692F6E661B96D3770093683A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		692F6E6B1B96D3770093683A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		692F6E6E1B96D3770093683A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		692F6E741B96D3770093683A /* TipCalcSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		692F6E791B96D3770093683A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		692F6E7A1B96D3770093683A /* TipCalcSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcSwiftTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		692F6E5C1B96D3770093683A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		692F6E711B96D3770093683A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				692F6E611B96D3770093683A /* TipCalcSwift */,
-				692F6E771B96D3770093683A /* TipCalcSwiftTests */,
 				692F6E601B96D3770093683A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				692F6E5F1B96D3770093683A /* TipCalcSwift.app */,
-				692F6E741B96D3770093683A /* TipCalcSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,23 +83,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		692F6E771B96D3770093683A /* TipCalcSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				692F6E7A1B96D3770093683A /* TipCalcSwiftTests.swift */,
-				692F6E781B96D3770093683A /* Supporting Files */,
-			);
-			path = TipCalcSwiftTests;
-			sourceTree = "<group>";
-		};
-		692F6E781B96D3770093683A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				692F6E791B96D3770093683A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,24 +103,6 @@
 			productReference = 692F6E5F1B96D3770093683A /* TipCalcSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		692F6E731B96D3770093683A /* TipCalcSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 692F6E811B96D3770093683A /* Build configuration list for PBXNativeTarget "TipCalcSwiftTests" */;
-			buildPhases = (
-				692F6E701B96D3770093683A /* Sources */,
-				692F6E711B96D3770093683A /* Frameworks */,
-				692F6E721B96D3770093683A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				692F6E761B96D3770093683A /* PBXTargetDependency */,
-			);
-			name = TipCalcSwiftTests;
-			productName = TipCalcSwiftTests;
-			productReference = 692F6E741B96D3770093683A /* TipCalcSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,10 +114,6 @@
 				TargetAttributes = {
 					692F6E5E1B96D3770093683A = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					692F6E731B96D3770093683A = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 692F6E5E1B96D3770093683A;
 					};
 				};
 			};
@@ -193,7 +131,6 @@
 			projectRoot = "";
 			targets = (
 				692F6E5E1B96D3770093683A /* TipCalcSwift */,
-				692F6E731B96D3770093683A /* TipCalcSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,13 +143,6 @@
 				690BCBA81B98F98900F7C198 /* Main.storyboard in Resources */,
 				692F6E6F1B96D3770093683A /* LaunchScreen.xib in Resources */,
 				692F6E6C1B96D3770093683A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		692F6E721B96D3770093683A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,23 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		692F6E701B96D3770093683A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				692F6E7B1B96D3770093683A /* TipCalcSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		692F6E761B96D3770093683A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 692F6E5E1B96D3770093683A /* TipCalcSwift */;
-			targetProxy = 692F6E751B96D3770093683A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		690BCBA61B98F98900F7C198 /* Main.storyboard */ = {
@@ -352,9 +266,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TipCalcSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -362,43 +278,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TipCalcSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		692F6E821B96D3770093683A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TipCalcSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalcSwift.app/TipCalcSwift";
-			};
-			name = Debug;
-		};
-		692F6E831B96D3770093683A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TipCalcSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalcSwift.app/TipCalcSwift";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -419,15 +303,6 @@
 			buildConfigurations = (
 				692F6E7F1B96D3770093683A /* Debug */,
 				692F6E801B96D3770093683A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		692F6E811B96D3770093683A /* Build configuration list for PBXNativeTarget "TipCalcSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				692F6E821B96D3770093683A /* Debug */,
-				692F6E831B96D3770093683A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

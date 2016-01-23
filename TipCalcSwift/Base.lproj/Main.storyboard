@@ -174,6 +174,13 @@
                                     <action selector="saveButton:" destination="3Dd-2t-gbe" eventType="touchUpInside" id="gNl-Yk-7cN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a settings page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aKn-Hw-Pcp">
+                                <rect key="frame" x="57" y="157" width="206" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.52189719869999995" green="0.64567095779999994" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
